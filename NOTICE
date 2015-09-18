@@ -1,0 +1,8 @@
+Adept RAPL wrapper library
+Copyright 2015 The University of Edinburgh
+
+This product includes software developed at
+EPCC, The University of Edinburgh (http://www.epcc.ed.ac.uk/).
+
+Parts of this code came from and are based on code from Vincent Weaver at Maine.
+That code is available at: https://github.com/deater/uarch-configure
