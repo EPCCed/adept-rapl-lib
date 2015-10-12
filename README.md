@@ -16,10 +16,21 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
 
+# Adept Project RAPL wrappler library
+
 A very basic implementation of the TU:D Greenmetrics 2012 paper by Hahnel et al
 in which they suggest alignment between reading the values of the RAPL counters
 with RAPL updates. This is intended to make it much less noisy and more accurate
 for short code paths but should help with some of our smaller benchmarks.
+
+## Citation & Further Information
+This library was implemented to help measure power in the Adept project benchmarks
+
+If you would like to cite this work, please cite:
+Nick Johnson et al., "Adept Deliverable D2.3 - Updated Report on Adept Benchmarks", September 2015.
+available at http://www.adept-project.eu/images/Deliverables/Adept%20D2.3.pdf
+
+## Build Instructions
 
 To build, use the Makefile.
 'make lib' will build only the shared (dynamic) library
